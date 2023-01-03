@@ -1,0 +1,175 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+    
+}
+
+.logo-img{
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#input{
+    background-color: #E5E5E5;
+    margin-top: 168px;
+    margin-left: 240px;
+    width: 577px;
+    height: 48px;
+    font-size: 32px;
+    border: none;
+}
+
+.area{
+    position: absolute;
+    width: 350px;
+    height: 700px;
+    left: 1100px;
+    top: 40px;
+    
+    background: #FFFFFF;
+    /* shadow */
+    
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  
+}
+#muneco{
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    left: 1132px;
+    top: 150px;
+}
+#msg1{
+    width: 336px;
+    height: 58px;
+ 
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    text-align: center;
+    margin-top: 120%;
+
+    color: #343A40;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#msg2{
+    width: 336px;
+    height: 58px;
+ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+   
+ 
+    color: #343A40;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#msg3{
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 400px;
+    margin-left: 150px;
+
+    color: #495057;
+
+    opacity: 0.8;
+}
+#btns{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 155px;
+}
+#encriptar{
+    width: 328px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    
+}
+#desencriptar{
+    width: 328px;
+    height: 67px;
+
+    background: #E5E5E5;
+    border-radius: 24px;
+    border-color: #0A3871;
+    cursor: pointer;
+    
+}
+#copiar{
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    top: 615px;
+    left: 12PX;
+    background: #FFFFFF;
+    border-color: #0A3871;
+    cursor: pointer;
+    display: none;
+}
+#encri{
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+}
+#des{
+    color: #0A3871;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+}
+#txt{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: none;
+    color: #343A40;
+}
